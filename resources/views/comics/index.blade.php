@@ -20,6 +20,9 @@
                     <td>{{ $comic->title }}</td>
                     <td>{{ $comic->src }}</td>
                     <td>{{ $comic->price }}</td>
+                    <td>
+                        <a class='btn btn-primary' href={{ route('Comics.show',['Comic' => $comic->id]) }} >Vedi info</a>
+                    </td>
                 </tr>
             @endforeach
         </tbody>
