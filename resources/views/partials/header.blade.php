@@ -8,10 +8,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href={{ route('Comics.index') }}>Fumetti</a>
+                <a class="nav-link active" aria-current="page" href={{ route('comics.index') }}>Fumetti</a>
               </li>  
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href={{ route('Comics.create') }}>Aggiungi fumetto</a>
+                <a class="nav-link active" aria-current="page" href={{ route('comics.create') }}>Aggiungi fumetto</a>
               </li>  
                       
             </ul>

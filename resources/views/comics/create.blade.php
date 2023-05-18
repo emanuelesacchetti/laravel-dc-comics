@@ -4,8 +4,9 @@
 
 @section('content')
 
-    @csrf
-    <form method='POST' action={{ 'comics.store' }}>
+    
+    <form method='POST' action={{route('comics.store') }}>
+        @csrf
         <div class="mb-3">
             <label for="title" class="form-label">titolo</label>
             <input type="text" class="form-control" id="title" name="title">
@@ -32,12 +33,12 @@
         </div>
         <div class="form-floating">
             <label for="description" class="form-label">Descrizione</label>
-            <textarea class="form-control" id="description"></textarea>
+            <textarea class="form-control" id="description" name="description"></textarea>
         </div>
         
         <button type="submit" class="btn btn-primary">Invia</button>
     </form>
 
-    <a class='btn btn-primary' href={{ route('Comics.index')}} >Indietro</a>
+    <a class='btn btn-primary' href={{ route('comics.index')}} >Indietro</a>
 
 @endsection

@@ -13,6 +13,6 @@
     <h3>{{ $comic->type }}</h3>
     <p>{{ $comic->description }}</p>
 
-    <a class='btn btn-primary' href={{ route('Comics.index')}} >Indietro</a>
+    <a class='btn btn-primary' href={{ route('comics.index')}} >Indietro</a>
 
     @endsection
