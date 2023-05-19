@@ -37,15 +37,15 @@ class UpdateComicRequest extends FormRequest
     public function messages()
     {
         return [
-            'title.require' => "E' obbligatorio inserire un titolo",
+            'title.required' => "E' obbligatorio inserire un titolo",
             'title.max' => "Puoi inserire al massimo 255 caratteri",
-            'src.require' => "E' obbligatorio inserire un URL",
+            'src.required' => "E' obbligatorio inserire un URL",
             'src.max' => "Puoi inserire al massimo 255 caratteri",
             'src.url' => "Inserire un Url corretto che inizi con HTTP://...",
             'description.max' => "Puoi inserire al massimo 2500 caratteri",
-            'price.require' => "E' obbligatorio inserire il prezzo",
+            'price.required' => "E' obbligatorio inserire il prezzo",
             'price.max' => "Puoi inserire al massimo 10 caratteri",
-            'series.require' => "E' obbligatorio inserire la serie",
+            'series.required' => "E' obbligatorio inserire la serie",
             'series.max' => "Puoi inserire al massimo 10 caratteri",
             'sale_date.max' => "Puoi inserire al massimo 100 caratteri",
             'type.required' => "E' obbligatorio inserire la tipologia",
